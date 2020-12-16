@@ -1,8 +1,15 @@
-## Welcome to GitHub Pages
+Being able to identify the predominant human fluxes and mobility patterns in the world is crucial for effectively modelling the spreading of diseases, establishing effective mobility connections and understanding the travelling habits of different populations. This project extension continues the exploration of human geographic movement by relating the latitude and longitude coordinates of check-ins (to the Gowalla and Brightkite social networks) to the respective countries where the localization took place. This is done with the purpose of investigating human migration patterns within and among countries. We are looking for eventual correlation between the users’ home location and their travelling destinations, possibly identifying what are the most frequent connections among countries. 
 
-You can use the [editor on GitHub](https://github.com/matthieu-str/where_do_the_globetrotters_come_from/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## The data
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We have used datasets containing millions of check-ins in two social networks : [Gowalla](https://snap.stanford.edu/data/loc-gowalla.html) and [Brightkite](http://snap.stanford.edu/data/loc-brightkite.html)
+
+
+
+
+
+
+
 
 ### Markdown
 
