@@ -4,9 +4,8 @@ Being able to identify the predominant human fluxes and mobility patterns in the
 
 We have used datasets containing millions of check-ins in two social networks : [Gowalla](https://snap.stanford.edu/data/loc-gowalla.html) and [Brightkite](http://snap.stanford.edu/data/loc-brightkite.html)
 
-
-
-
+You can see the distribution of these millions over the planet right there : 
+![Check-ins map](/images/checkins_map.jpeg)
 
 
 
