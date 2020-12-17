@@ -114,6 +114,8 @@ Chiara ONGARO, Cyril CHAMBE and Matthieu SOUTTRE
 
 [Language list by country and place](https://www.kaggle.com/zinovadr/language-list-by-country-and-place?select=Language+List+by+Country+and+Place.xlsx)
 
+[Continent - Country](https://www.kaggle.com/sarques/conticountry)
+
 ## Methods 
 
 <br/><br/>
