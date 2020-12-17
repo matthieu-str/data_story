@@ -51,8 +51,6 @@ The selected countries are represented on this map :
 
 Moreover, as we are only interested in travelling habits, the following statistics are based on check-ins that were done at a distance from home greater than 200 km, which is how we define a travel. 
 
-Here are the results : 
-
 <p align="justify">Please note that in order not to account twice some users that could use both Brightkite and Gowalla, we will always present you the results for both of them separately and analyse the similarities and differences between these two.</p> 
 
 The following figure shows how far from their home are people when they leave their country. 
@@ -66,13 +64,13 @@ The next figure shows the how far people go on average, when they travel (i.e. 2
 ![Distance EU vs US 2](/images/distance_without_leaving_country_eu_vs_us.png)
 
 <p align="justify">One can observe that Gowalla's Americans users travel further than Gowalla's European users and Brightkite's European users travel further than Brightkite's American users. Therefore, we can unefortunately not conclude much due to this lack of data in Europe. Indeed, the big gap between Gowalla's and Brightkite's users in Europe is quite surprising and shows that more data is needed in Europe to draw strong conlusions about this aspect of the study.</p>
-<br/><br/>
+
 <p align="justify">The next figure shows the percentage of people who leaves their country when travelling. This corresponds to the percentage of people who, when travelling, left their country over the data collecting period (20 months for Gowalla and 30 months for Brightkite).</p> 
 
 ![Part of population EU vs US](/images/part_of_pop_out_eu_vs_us.png)
 
 <p align="justify">As the collection time was 10 months longer for the Brightkite dataset, it is not surprising to see higher numbers, as people will travel more over this longer period. It is also not surprising to see that American people leave less their country as Europeans, as US is much bigger in terms of surface.</p> 
-<br/><br/>
+
 Let's see if this is changing when considering continents instead of countries. 
 
 ![Part of population continent EU vs NA](/images/part_of_pop_out_continent_eu_vs_us.png)
