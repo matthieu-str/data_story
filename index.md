@@ -65,9 +65,9 @@ Here are the results :
 
 ## 2. But where are they going ?!
 
-![Departures US](/images/departures_from_us.png)
+![Departures US](/images/departures_from_us.jpg)
 
-![Departures US](/images/departures_from_sweden.png)
+![Departures US](/images/departures_from_sweden.jpg)
 
 ## 3. What is influencing travellers ? 
 
