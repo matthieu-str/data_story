@@ -1,5 +1,3 @@
-# Why are we doing this ?
-
 Being able to identify the predominant human fluxes and mobility patterns in the world is crucial for effectively modelling the spreading of diseases, establishing effective mobility connections and understanding the travelling habits of different populations. This project extension continues the exploration of human geographic movement by relating the latitude and longitude coordinates of check-ins (to the Gowalla and Brightkite social networks) to the respective countries where the localization took place. This is done with the purpose of investigating human migration patterns within and among countries. We are looking for eventual correlation between the users’ home location and their travelling destinations, possibly identifying what are the most frequent connections among countries. 
 
 # The main questions we asked ourselves
@@ -23,6 +21,36 @@ You can see the distribution of these millions over the planet right there :
 ![Check-ins map](/images/checkins_map.jpeg)
 
 # How do we shaped this data ? 
+
+## 1. Finding user's home
+
+At the beginng, the only thing we had was a huge amount of check-ins. Before everything else, we had to define a house for each user, in order to know its nationality and the distances that the users travel when they leave their home. 
+
+To achieve this, we divided the all world into 25 km x 25 km cells. The home location of a user was the average location of his or her check-ins, within the cell into which he or she had the more check-ins. 
+
+You can see here the distribution of home location over the world : 
+
+*Add the picture*
+
+Once this was done, we were able to give a nationality to each user. 
+
+## 2. Geographical boundaries of our study 
+
+As you can see on the distribution of check-ins and home locations, these lasts are not equally distributed on earth. These two social networks are more popular in the US and some European countries. Therefore, we had to set on threshold to apply our study only in places where we had enough data. 
+In this analysis, we only kept the countries in which at leat 1 person over 100 000 was a user for both social networks. 
+The selected countries are represented on this map :
+
+*Add the picture*
+
+# Results 
+
+## 1. Comparison between United-States and Europe 
+
+For each check-in, we could compute the distance between the user's location while checking in and his or her home location. Therefore, we have been able to compute various kind of statistics. Given the geographical boundaries of our stidues, we have chosen to compare the US and the average results of European countries that are part of the study (namely Europe in what follows).  
+
+Moreover, as we are only interested in travelling habits, the following statistics are based on check-ins that were done at a distance from home greater than 200 km, which is how we define a travel. 
+
+Here are the results : 
 
 # Conclusion
 
