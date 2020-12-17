@@ -52,11 +52,13 @@ Moreover, as we are only interested in travelling habits, the following statisti
 
 Here are the results : 
 
-Please note that in order not to account twice some users that could use both Brightkite and Gowalla, we will always present you the results for both of them separately and analyse the similarities and differences between these two. 
+<p align="justify">Please note that in order not to account twice some users that could use both Brightkite and Gowalla, we will always present you the results for both of them separately and analyse the similarities and differences between these two.</p> 
+
+The following figure shows how far from their home are people when they leave their country. 
 
 ![Distance EU vs US](/images/distance_eu_vs_us.png)
 
-
+You can see that American people go much further than European when they leave the US. That makes sense because the US is almost as big as all Europe in terms of surface. 
 
 ![Part of population EU vs US](/images/part_of_pop_out_eu_vs_us.png)
 
@@ -72,6 +74,8 @@ Please note that in order not to account twice some users that could use both Br
 ![Departures Sweden Gowalla](/images/gowalla_departures_from_sweden.jpg)
 
 ![Departures US Brightkite](/images/brightkite_departures_from_us.jpg)
+
+![Departures Sweden Brightkite](/images/brightkite_departures_from_sweden.jpg)
 
 ## 3. What is influencing travellers ? 
 
