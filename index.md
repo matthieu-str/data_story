@@ -62,6 +62,19 @@ Here are the results :
 
 ![Countries per traveller EU vs US](/images/countries_per_traveller_eu_vs_us.png)
 
+
+## 2. But where are they going ?!
+
+![Departures US](/images/departures_from_us.png)
+
+![Departures US](/images/departures_from_sweden.png)
+
+## 3. What is influencing travellers ? 
+
+![Regression Brightkite](/images/polynomial_reg_brightkite.png)
+
+![Regression Gowalla](/images/polynomial_reg_gowalla.png)
+
 # Conclusion
 
 # The team
