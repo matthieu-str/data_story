@@ -8,12 +8,47 @@ Being able to identify the predominant human fluxes and mobility patterns in the
 2. Have some countries different trips habits than others ?
 3. What is the influence of factors like the language, the distance or the GDP on travlling habits ? 
 
-# The data
+# What was our input data ?
 
-We have used datasets containing millions of check-ins in two social networks : [Gowalla](https://snap.stanford.edu/data/loc-gowalla.html) and [Brightkite](http://snap.stanford.edu/data/loc-brightkite.html)
+We were given several millions of check-ins and the friendship network coming from two social networks : Brightkite and Gowalla. 
+
+Here's a summary of this data :
+
+Social network | Number of check-ins | Number of users | Number of countries and places | Number of nodes | Number of edges 
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- 
+Brightkite | 4 491 035 | 50 686 | 242 | 58 228 | 214 078
+Gowalla | 6 442 728 | 107 069 | 196 | 196 591 | 950 327
 
 You can see the distribution of these millions over the planet right there : 
 ![Check-ins map](/images/checkins_map.jpeg)
+
+# How do we shaped this data ? 
+
+# Conclusion
+
+# The team
+
+Our team is composed of 3 students from EPFL : 
+
+Chiara ONGARO
+Cyril CHAMBE
+Matthieu SOUTTRE
+
+# Appendix
+
+## Datasets used 
+
+[Check-ins from Gowalla](https://snap.stanford.edu/data/loc-gowalla.html) 
+
+[Check-ins from Brightkite](http://snap.stanford.edu/data/loc-brightkite.html)
+
+[Country Mapping - ISO, Continent, Region](https://www.kaggle.com/andradaolteanu/country-mapping-iso-continent-region)
+
+[Countries of the world](https://www.kaggle.com/fernandol/countries-of-the-world)
+
+[Language list by country and place](https://www.kaggle.com/zinovadr/language-list-by-country-and-place?select=Language+List+by+Country+and+Place.xlsx)
+
+## Methods 
 
 ### Help for markdown
 
