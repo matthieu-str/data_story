@@ -11,7 +11,8 @@
 We were given several millions of check-ins and the friendship network coming from two social networks : Brightkite and Gowalla. 
 
 Here's a summary of this data :
-<br/><br/>
+
+
 Social network | Number of check-ins | Number of users | Number of countries and places | Number of nodes | Number of edges 
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- 
 Brightkite | 4 491 035 | 50 686 | 242 | 58 228 | 214 078
@@ -106,6 +107,8 @@ Chiara ONGARO, Cyril CHAMBE and Matthieu SOUTTRE
 [Language list by country and place](https://www.kaggle.com/zinovadr/language-list-by-country-and-place?select=Language+List+by+Country+and+Place.xlsx)
 
 ## Methods 
+
+<br/><br/>
 
 ### Help for markdown
 
