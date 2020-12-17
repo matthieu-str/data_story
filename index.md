@@ -61,6 +61,8 @@ The following figure shows how far from their home are people when they leave th
 
 You can see that American people go much further than European when they leave the US. That makes sense because the US is almost as big as all Europe in terms of surface. 
 
+![Distance EU vs US 2](/images/distance_without_leaving_country_eu_vs_us.png)
+
 ![Part of population EU vs US](/images/part_of_pop_out_eu_vs_us.png)
 
 
