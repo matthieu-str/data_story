@@ -71,7 +71,8 @@ The next figure shows the how far people go on average, when they travel (i.e. 2
 
 ![Part of population EU vs US](/images/part_of_pop_out_eu_vs_us.png)
 
-As the collection time was 10 months longer for the Brightkite dataset, it is not surprising to see higher numbers, as people will travel more over this longer period. It is also not surprising to see that American people leave less their country as Europeans, as US is much bigger in terms of surface. 
+<p align="justify">As the collection time was 10 months longer for the Brightkite dataset, it is not surprising to see higher numbers, as people will travel more over this longer period. It is also not surprising to see that American people leave less their country as Europeans, as US is much bigger in terms of surface.</p> 
+<br/><br/>
 Let's see if this is changing when considering continents instead of countries. 
 
 ![Part of population continent EU vs NA](/images/part_of_pop_out_continent_eu_vs_us.png)
