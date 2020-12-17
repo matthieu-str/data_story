@@ -11,7 +11,7 @@
 We were given several millions of check-ins and the friendship network coming from two social networks : Brightkite and Gowalla. 
 
 Here's a summary of this data :
-
+<br/><br/>
 Social network | Number of check-ins | Number of users | Number of countries and places | Number of nodes | Number of edges 
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- 
 Brightkite | 4 491 035 | 50 686 | 242 | 58 228 | 214 078
@@ -28,7 +28,7 @@ At the beginng, the only thing we had was a huge amount of check-ins. Before eve
 
 To achieve this, we divided the all world into 25 km x 25 km cells. The home location of a user was the average location of his or her check-ins, within the cell into which he or she had the more check-ins. 
 
-You can see here the distribution of home location over the world : 
+You can see here the distribution of home location over the world :
 
 *Add the picture*
 
@@ -36,8 +36,8 @@ Once this was done, we were able to give a nationality to each user.
 
 ## 2. Geographical boundaries of our study 
 
-As you can see on the distribution of check-ins and home locations, these lasts are not equally distributed on earth. These two social networks are more popular in the US and some European countries. Therefore, we had to set on threshold to apply our study only in places where we had enough data. 
-In this analysis, we only kept the countries in which at leat 1 person over 100 000 was a user for both social networks. 
+<p align="justify">As you can see on the distribution of check-ins and home locations, these lasts are not equally distributed on earth. These two social networks are more popular in the US and some European countries. Therefore, we had to set on threshold to apply our study only in places where we had enough data. 
+In this analysis, we only kept the countries in which at leat 1 person over 100 000 was a user for both social networks.</p> 
 The selected countries are represented on this map :
 
 *Add the picture*
@@ -46,11 +46,13 @@ The selected countries are represented on this map :
 
 ## 1. Comparison between United-States and Europe 
 
-For each check-in, we could compute the distance between the user's location while checking in and his or her home location. Therefore, we have been able to compute various kind of statistics. Given the geographical boundaries of our stidues, we have chosen to compare the US and the average results of European countries that are part of the study (namely Europe in what follows).  
+<p align="justify">For each check-in, we could compute the distance between the user's location while checking in and his or her home location. Therefore, we have been able to compute various kind of statistics. Given the geographical boundaries of our stidues, we have chosen to compare the US and the average results of European countries that are part of the study (namely Europe in what follows).</p> 
 
 Moreover, as we are only interested in travelling habits, the following statistics are based on check-ins that were done at a distance from home greater than 200 km, which is how we define a travel. 
 
 Here are the results : 
+
+Please note that in order not to account twice some users that could use both Brightkite and Gowalla, we will always present you the results for both of them separately and analyse the similarities and differences between these two. 
 
 ![Distance EU vs US](/images/distance_eu_vs_us.png)
 
@@ -65,9 +67,11 @@ Here are the results :
 
 ## 2. But where are they going ?!
 
-![Departures US](/images/gowalla_departures_from_us.jpg)
+![Departures US Gowalla](/images/gowalla_departures_from_us.jpg)
 
-![Departures US](/images/gowalla_departures_from_sweden.jpg)
+![Departures Sweden Gowalla](/images/gowalla_departures_from_sweden.jpg)
+
+![Departures US Brightkite](/images/brightkite_departures_from_us.jpg)
 
 ## 3. What is influencing travellers ? 
 
