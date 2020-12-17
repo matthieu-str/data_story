@@ -6,7 +6,7 @@
 2. Have some countries different trips habits than others ?
 3. What is the influence of factors like the language, the distance or the GDP on travlling habits ? 
 
-# What was our input data ? (This is just a test)
+# What was our input data ? 
 
 We were given several millions of check-ins and the friendship network coming from two social networks : Brightkite and Gowalla. 
 
