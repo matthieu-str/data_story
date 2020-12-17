@@ -60,8 +60,14 @@ The following figure shows how far from their home are people when they leave th
 ![Distance EU vs US](/images/distance_eu_vs_us.png)
 
 You can see that American people go much further than European when they leave the US. That makes sense because the US is almost as big as all Europe in terms of surface. 
+<br/><br/>
+The next figure shows the how far people go on average, when they travel (i.e. 200 km or more from their house), with or without leaving their country. 
 
 ![Distance EU vs US 2](/images/distance_without_leaving_country_eu_vs_us.png)
+
+<p align="justify">One can observe that Gowalla's Americans users travel further than Gowalla's European users and Brightkite's European users travel further than Brightkite's American users. Therefore, we can unefortunately not conclude much due to this lack of data in Europe. Indeed, the big gap between Gowalla's and Brightkite's users in Europe is quite surprising and shows that more data is needed in Europe to draw strong conlusions about this aspect of the study.</p>
+<br/><br/>
+The next figure shows the percentage of people who leaves their country when travelling. 
 
 ![Part of population EU vs US](/images/part_of_pop_out_eu_vs_us.png)
 
