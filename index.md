@@ -53,6 +53,8 @@ Moreover, as we are only interested in travelling habits, the following statisti
 Here are the results : 
 
 ![Distance EU vs US](/images/distance_eu_vs_us.png)
+![Part of population EU vs US](/images/part_of_pop_out_eu_vs_us.png)
+![Countries per traveller EU vs US](/images/countries_per_traveller_eu_vs_us.png)
 
 # Conclusion
 
