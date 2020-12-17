@@ -52,6 +52,8 @@ Moreover, as we are only interested in travelling habits, the following statisti
 
 Here are the results : 
 
+![Distance EU vs US](/images/distance_eu_vs_us.png)
+
 # Conclusion
 
 # The team
