@@ -13,10 +13,10 @@ We were given several millions of check-ins and the friendship network coming fr
 Here's a summary of this data :
 
 
-Social network | Number of check-ins | Number of users | Number of countries and places | Number of nodes | Number of edges 
------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
-Brightkite | 4 491 035 | 50 686 | 242 | 58 228 | 214 078
-Gowalla | 6 442 728 | 107 069 | 196 | 196 591 | 950 327
+Social network | Number of check-ins | Number of users | Number of countries and places | Number of nodes | Number of edges | Date of collection
+------------ | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
+Brightkite | 4 491 035 | 50 686 | 242 | 58 228 | 214 078 | April 2008 - October 2010
+Gowalla | 6 442 728 | 107 069 | 196 | 196 591 | 950 327 | February 2009 - October 2010
 
 You can see the distribution of these millions over the planet right there : 
 ![Check-ins map](/images/checkins_map.jpeg)
@@ -67,11 +67,11 @@ The next figure shows the how far people go on average, when they travel (i.e. 2
 
 <p align="justify">One can observe that Gowalla's Americans users travel further than Gowalla's European users and Brightkite's European users travel further than Brightkite's American users. Therefore, we can unefortunately not conclude much due to this lack of data in Europe. Indeed, the big gap between Gowalla's and Brightkite's users in Europe is quite surprising and shows that more data is needed in Europe to draw strong conlusions about this aspect of the study.</p>
 <br/><br/>
-The next figure shows the percentage of people who leaves their country when travelling. 
+<p align="justify">The next figure shows the percentage of people who leaves their country when travelling. This corresponds to the percentage of people who, when travelling, left their country over the data collecting period (20 months for Gowalla and 30 months for Brightkite).</p> 
 
 ![Part of population EU vs US](/images/part_of_pop_out_eu_vs_us.png)
 
-
+As the collection time was 10 months longer for the Brightkite dataset, it is not surprising to see higher numbers, as people will travel more over this longer period. It is also not surprising to see that American people leave less their country as Europeans, as US is much bigger in terms of surface. 
 
 ![Countries per traveller EU vs US](/images/countries_per_traveller_eu_vs_us.png)
 
