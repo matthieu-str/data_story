@@ -104,14 +104,6 @@ Let's see the curves of influence given by the polynomial regression :
 
 ## 3. But where are they going ?!
 
-![Departures US Gowalla](/images/gowalla_departures_from_us.jpg)
-
-![Departures Sweden Gowalla](/images/gowalla_departures_from_sweden.jpg)
-
-![Departures US Brightkite](/images/brightkite_departures_from_us.jpg)
-
-![Departures Sweden Brightkite](/images/brightkite_departures_from_sweden.jpg)
-
 ![NotEurope](/images/NotEurope.png)
 
 ![World](/images/World.png)
