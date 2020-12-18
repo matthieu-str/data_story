@@ -8,7 +8,7 @@ By relating the latitude and longitude coordinates of check-ins to the respectiv
 
 1. What are the main fluxes of people over the world ?
 2. Have some countries different travelling habits than others ?
-3. What is the influence of factors like the language, the distance or the GDP on travelling habits? 
+3. What is the influence of factors like the language, the distance or the GDP on travelling habits ? 
 
 # Where did we start? 
 
@@ -37,7 +37,7 @@ Once this step was completed, we had already a clearer portray of each user, kno
 
 ## 2. Geographical boundaries of our study 
 
-<p align="justify">As expected the distribution of check-ins and home locations was not homogeneous on earth. In particular, these two social networks are more popular in the US and some European countries than in Asia or Africa. To draw meaningful conclusions from the results we had to restrict our analysis to a smaller and more represented set of users. For this reason,we only selected regions of the world where enough data were available.  
+<p align="justify">As expected the distribution of check-ins and home locations was not homogeneous on arth. In particular, these two social networks are more popular in the US and some European countries than in Asia or Africa. To draw meaningful conclusions from the results we had to restrict our analysis to a smaller and more represented set of users. For this reason,we only selected regions of the world where enough data were available.  
 Specifically, for both social networks we only kept countries in which at least 1 person over 100 000 was a users.</p> 
 The selected countries are represented on this map :
 
@@ -47,19 +47,19 @@ The selected countries are represented on this map :
 
 ## 1. Comparison between United-States and Europe 
 
-<p align="justify">For each check-in, we could compute the distance between the user's location while checking in and his or her home location. Therefore, we have been able to compute various kind of statistics. Given the geographical boundaries of our stidues, we have chosen to compare the US and the average results of European countries that are part of the study (namely Europe in what follows).</p> 
+<p align="justify">For each check-in, we could compute the distance between the user's location while checking-in, and his/her home location. Thanks to some useful statistics we could identify some insightful information on the data.  Given the geographical boundaries of our study, we have chosen to compare the US and the average results of European countries that are part of the study (simply referred as Europe in what follows).</p> 
 
 Moreover, as we are only interested in travelling habits, the following statistics are based on check-ins that were done at a distance from home greater than 200 km, which is how we define a travel. 
 
 <p align="justify">Please note that in order not to account twice some users that could use both Brightkite and Gowalla, we will always present you the results for both of them separately and analyse the similarities and differences between these two.</p> 
 
-The following figure shows how far from their home are people when they leave their country. 
+The following figure shows how far from their home are people travelling when they **leave their country**. 
 
 ![Distance EU vs US](/images/distance_eu_vs_us.png)
 
-You can see that American people go much further than European when they leave the US. That makes sense because the US is almost as big as all Europe in terms of surface. 
+You can see that American people go much further than European when they leave the US. This becomes rather intuitive if we think that the US is almost as big as all Europe in terms of surface. 
 <br/><br/>
-The next figure shows the how far people go on average, when they travel (i.e. 200 km or more from their house), with or without leaving their country. 
+The next figure shows the how far people go on average, when they travel (i.e. 200 km or more from their house), independently of the fact that they leave their country or not. 
 
 ![Distance EU vs US 2](/images/distance_without_leaving_country_eu_vs_us.png)
 
@@ -85,12 +85,9 @@ Its seems that on average, Europeans people visit more countries than Americans.
 
 ## 2. What is influencing travellers ? 
 
-Within the scope of this work, we studied the influence of three parameters :
-- the distance between countries
-- the language 
-- the difference of GDP between countries
+![Regression Brightkite](/images/polynomial_reg_brightkite.png)
 
-<p align="justify">To analyze these facotrs, we performed a polymomial analysis, meaning that we tried to model the number of travels between two countries by polynomial functions of the three previous factors. The numerical results of the polynomial regression are available as an appendix.</p> 
+![Regression Gowalla](/images/polynomial_reg_gowalla.png)
 
 ## 3. But where are they going ?!
 
@@ -133,20 +130,7 @@ Chiara ONGARO, Cyril CHAMBE and Matthieu SOUTTRE
 
 [Continent - Country](https://www.kaggle.com/sarques/conticountry)
 
-## Methods
-
-### Polynomial regression
-
-Here are the numerical results of the polynomial regressions :
-- for the Brightkite dataset 
-<br/><br/>
-![Regression Brightkite](/images/polynomial_reg_brightkite.png)
-
-- for the Gowalla dataset
-<br/><br/>
-![Regression Gowalla](/images/polynomial_reg_gowalla.png)
-
-Please note that the distance and GDP difference have been standardised, and that the same_language variable is a binary variable (equals 1 if the departure and arrival countries have the same language and 0 of not). 
+## Methods 
 
 <br/><br/>
 
