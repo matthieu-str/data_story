@@ -37,8 +37,8 @@ Once this step was completed, we had already a clearer portray of each user, kno
 
 ## 2. Geographical boundaries of our study 
 
-<p align="justify">As expected the distribution of check-ins and home locations was not homogeneous on arth. In particular, these two social networks are more popular in the US and some European countries than in Asia or Africa. To draw meaningful conclusions from the results we had to restrict our analysis to a smaller and more represented set of users. For this reason,we only selected regions of the world where enough data were available.  
-Specifically, for both social networks we only kept countries in which at least 1 person over 100 000 was a users.</p> 
+<p align="justify">As expected the distribution of check-ins and home locations was not homogeneous on Earth. In particular, these two social networks are more popular in the US and some European countries than in Asia or Africa. To draw meaningful conclusions from the results we had to restrict our analysis to a smaller and more represented set of users. For this reason,we only selected regions of the world where enough data were available.  
+Specifically, for both social networks we only kept countries in which at least 1 person out of 100 000 was a user.</p> 
 
 The selected countries are represented on this map, except for Malta and Singapore that are not defined in Geopandas :
 
@@ -91,9 +91,9 @@ Within the scope of this work, we studied the influence of three parameters :
  - the language 
  - the difference of GDP between countries
 
-<p align="justify">To analyze these facotrs, we performed a polymomial analysis, meaning that we tried to model the number of travels between two countries by polynomial functions of the three previous factors. The numerical results of the polynomial regression are available as an appendix.</p>
+<p align="justify">To analyze these factors, we performed a polymomial analysis, meaning that we tried to model the number of travels between two countries by polynomial functions of the three previous factors. The numerical results of the polynomial regression are available as an appendix.</p>
 
-Let's see the curves of influence given by the polynomial regression. Please note that one the following graphs, the factors are standardised, meaning that 0 is equivalent to the mean value and 1 to sum of the mean value and the standard deviation. We were careful to make the graph start at the actuel zero in common units (km, $). 
+Let's see the curves of influence given by the polynomial regression. Please note that on the following graphs, the factors are standardized, meaning that 0 is equivalent to the mean value and 1 to the sum of the mean value and the standard deviation. We were careful to make the graph start at the actual zero in common units (km, $). 
 
 The first figures represent the influence of the distance on travelers. 
 
@@ -112,14 +112,14 @@ The first figures represent the influence of the distance on travelers.
 
 ![World](/images/World.png)
 ![World](/images/WorldG.png)
-By looking at  these graphs, respectively for Brightkite and Gowalla, we can notice few important and common features, for instance a comparable amount of people travel from the US to Canada and viceversa, similarly people from the US tend to travel to neighbouring country Mexico. It would have been interesting to investigate the particular relation Mexico-US in light of the rather strict immagration politics imposed by the United States, but unfortunately nothing could be inferrend for the travels from Mexico, as not enough users were present. 
-In Europe, it is evident that most of the travels happen among the biggest economical parters, namely UK, Germany, Italy and Spain (France is not included as not enought users were present). The following investigation highlighted a more remarkable flux of people among Italy and the UK, Germany and the US and finally the UK and the US. This last connection emphasizes a particularly interesting characteristic also in line with real observations, in fact the connection London-New York is known to be the busiest and most profitable of the world. 
+By looking at  these graphs, respectively for Brightkite and Gowalla, we can notice few important and common features, for instance a comparable amount of people travel from the US to Canada and viceversa, similarly people from the US tend to travel to neighbouring country Mexico. It would have been interesting to investigate the particular relation Mexico-US in light of the rather strict immigration policies imposed by the United States, but unfortunately nothing could be inferred for the travels from Mexico, as not enough users were present. 
+In Europe, it is evident that most of the travels happen among the biggest economical partners, namely UK, Germany, Italy and Spain (France is not included as not enough users were present). The following investigation highlighted a more remarkable flux of people among Italy and the UK, Germany and the US and finally the UK and the US. This last connection emphasizes a particularly interesting characteristic also in line with real observations, in fact the connection London-New York is known to be the busiest and most profitable of the world. 
 
 ![Europe](/images/Europe.png)
 
 ![Europe](/images/EuropeG.png)
 
-Similar conclusions can be reached by analysing the results for 1.5M users for Brightkite and Gowalla, which present similar behaviours. Firsly, it has to be pointed out that the reason why the arrows for Gowalla are thinner than for Brighkite is that we have a 10 months difference in the data acquisition period, thus less check-ins were collected for each user in the Gowalla datset. Another feature, not detectable from the maps above, is that Germany plays a predominant role in Europe, in fact many Germans travel abroad, but not many people enter the country. Not many arrows leave from Spain, perhaps suggesting that Spanish people prefer travelling withing the country instead than abroad. 
+Similar conclusions can be reached by analysing the results for 1.5M users for Brightkite and 1M users for Gowalla, which present similar behaviours. Firsly, it has to be pointed out that the reason why the arrows for Gowalla are thinner than for Brighkite is that we have a 10 months difference in the data acquisition period, thus less check-ins were collected for each user in the Gowalla datset. Another feature, not detectable from the maps above, is that Germany plays a predominant role in Europe, in fact many Germans travel abroad, but not many people enter the country. Not many arrows leave from Spain, perhaps suggesting that Spanish people prefer travelling within the country instead than abroad. 
 
 # Conclusion
 
