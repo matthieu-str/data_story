@@ -14,7 +14,7 @@ By relating the latitude and longitude coordinates of check-ins to the respectiv
 
 Given our location-based social networks Gowalla and Brightkite we had available millions check-ins and the the respective friendship network. 
 
-Here's a summary of this data :
+Here's a summary of the data :
 
 
 Social network | Number of check-ins | Number of users | Number of countries and places | Number of nodes | Number of edges | Date of collection
@@ -33,12 +33,12 @@ To achieve this, we discretized the world into 25 km x 25 km cells. The home loc
 You can see here the distribution of users' home locations over the world :
 ![Home Distribution](/images/hone_distributions.png)
 
-Once this step was completed, we had already a clearer portray of each user, knowing the origin country for each of them.  
+Once this step was completed, we had already a clearer portray of each user, knowing at least the origin country for each of them.  
 
 ## 2. Geographical boundaries of our study 
 
-<p align="justify">As you can see on the distribution of check-ins and home locations, these lasts are not equally distributed on earth. These two social networks are more popular in the US and some European countries. Therefore, we had to set on threshold to apply our study only in places where we had enough data. 
-In this analysis, we only kept the countries in which at leat 1 person over 100 000 was a user for both social networks.</p> 
+<p align="justify">As expected the distribution of check-ins and home locations was not homogeneous on earth. In particular, these two social networks are more popular in the US and some European countries than in Asia or Africa. To draw meaningful conclusions from the results we had to restrict our analysis to a smaller and more represented set of users. For this reason,we only selected regions of the world where enough data were available.  
+Specifically, for both social networks we only kept countries in which at least 1 person over 100 000 was a users.</p> 
 The selected countries are represented on this map :
 
 *Add the picture*
