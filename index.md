@@ -94,13 +94,13 @@ Within the scope of this work, we studied the influence of three parameters :
 
 Let's see the curves of influence given by the polynomial regression : 
 
-![Distance Gowalla](/images/distance_gowalla.jpg)
+![Distance Gowalla](/images/distance_gowalla.png)
 
-![Distance Brightkite](/images/distance_brightkite.jpg)
+![Distance Brightkite](/images/distance_brightkite.png)
 
-![GDP Gowalla](/images/gdp_gowalla.jpg)
+![GDP Gowalla](/images/gdp_gowalla.png)
 
-![GDP Brightkite](/images/gdp_brightkite.jpg)
+![GDP Brightkite](/images/gdp_brightkite.png)
 
 ## 3. But where are they going ?!
 
