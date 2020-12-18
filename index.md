@@ -31,7 +31,7 @@ To achieve this, we divided the all world into 25 km x 25 km cells. The home loc
 
 You can see here the distribution of home location over the world :
 
-{% includes "images/mymap_b.html" %}
+{% include "images/mymap_b.html" %}
 
 Once this was done, we were able to give a nationality to each user. 
 
