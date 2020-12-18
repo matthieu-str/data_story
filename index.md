@@ -103,9 +103,10 @@ The first figures represent the influence of the distance on travelers.
 
 <p align="justify">These curves have similar shapes. First, one can observe that the number of travelers decreases with the distance. But reaching a certain distance, the number of travelers stops decreasing. We can interpret this by saying that when people are traveling in a relatively close zone around them, a majority of them stays close to their home locations. But, once the trip is very far away, the distance does not matter so much as it is already very large.</p>  
 
-About languages :
-- **18.65%** of travels are done in a same-language country for the Brightkite dataset
-- **14.21%** of travels are done in a same-language country for the Gowalla dataset
+![GDP Gowalla](/images/gdp_gowalla.png)
+
+![GDP Brightkite](/images/gdp_brightkite.png)
+
 
 ## 3. But where are they going ?!
 
@@ -117,6 +118,8 @@ In Europe, it is evident that most of the travels happen among the biggest econo
 ![Europe](/images/Europe.png)
 
 ![Europe](/images/EuropeG.png)
+
+Similar conclusions can be reached by analysing the results for 1.5M users for Brightkite and Gowalla, which present similar behaviours. Firsly, it has to be pointed out that the reason why the arrows for Gowalla are thinner than for Brighkite is that we have a 10 months difference in the data acquisition perdiod, thus less check-ins were collected for each user in the Gowalla datset. Another feature, not detectable from the maps above, is that Germany 
 
 # Conclusion
 
