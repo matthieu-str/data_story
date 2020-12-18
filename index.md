@@ -104,9 +104,11 @@ The first figures represent the influence of the distance on travelers.
 <p align="justify">These curves have similar shapes. First, one can observe that the number of travelers decreases with the distance. But reaching a certain distance, the number of travelers stops decreasing. We can interpret this by saying that when people are traveling in a relatively close zone around them, a majority of them stays close to their home locations. But, once the trip is very far away, the distance does not matter so much as it is already very large.</p>  
 
 About languages :
+<br/><br/>
 -**18.65%** of travels are done in a same-language country for the Brightkite dataset
+<br/><br/>
 -**14.21%** of travels are done in a same-language country for the Gowalla dataset
-
+<br/><br/>
 This is a lot given the fact that **5.82%** of the selected countries have the same language for the Gowalla dataset and **6.75%** for the Brightkite dataset. 
 
 
@@ -164,7 +166,3 @@ Chiara ONGARO, Cyril CHAMBE and Matthieu SOUTTRE
  Please note that the distance and GDP difference have been standardised, and that the same_language variable is a binary variable (equals 1 if the departure and arrival countries have the same language and 0 of not). 
 
 <br/><br/>
-
-### Help for markdown
-
-[Help](https://guides.github.com/features/mastering-markdown/)
