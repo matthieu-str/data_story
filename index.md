@@ -99,8 +99,6 @@ Its seems that on average, Europeans people visit more countries than Americans.
 
 ![Departures Sweden Brightkite](/images/brightkite_departures_from_sweden.jpg)
 
-![NotEurope](/images/NotEurope.png)
-
 ![World](/images/World.png)
 
 ![Europe](/images/Europe.png)
