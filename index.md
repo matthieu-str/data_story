@@ -125,8 +125,6 @@ In Europe, it is evident that most of the travels happen among the biggest econo
 
 Similar conclusions can be reached by analysing the results for 1.5M users for Brightkite and 1M users for Gowalla, which present similar behaviours. Firsly, it has to be pointed out that the reason why the arrows for Gowalla are thinner than for Brighkite is that we have a 10 months difference in the data acquisition period, thus less check-ins were collected for each user in the Gowalla datset. Another feature, not detectable from the maps above, is that Germany plays a predominant role in Europe, in fact many Germans travel abroad, but not many people enter the country. Not many arrows leave from Spain, perhaps suggesting that Spanish people prefer travelling within the country instead than abroad. 
 
-# Conclusion
-
 # The team
 
 Our team is composed of 3 students from EPFL : 
