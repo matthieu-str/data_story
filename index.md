@@ -41,7 +41,7 @@ Once this step was completed, we had already a clearer portray of each user, kno
 Specifically, for both social networks we only kept countries in which at least 1 person over 100 000 was a users.</p> 
 The selected countries are represented on this map :
 
-*Add the picture*
+![selected countries](/images/selectedcountries.png)
 
 # Results 
 
