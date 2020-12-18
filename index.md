@@ -22,9 +22,6 @@ Social network | Number of check-ins | Number of users | Number of countries and
 Brightkite | 4 491 035 | 50 686 | 242 | 58 228 | 214 078 | April 2008 - October 2010
 Gowalla | 6 442 728 | 107 069 | 196 | 196 591 | 950 327 | February 2009 - October 2010
 
-You can see the distribution of these millions over the planet right there : 
-![Check-ins map](/images/checkins_map.jpeg)
-
 # How do we shaped this data ? 
 
 ## 1. Finding user's home
@@ -34,7 +31,7 @@ At the beginng, the only thing we had was a huge amount of check-ins. Before eve
 To achieve this, we divided the all world into 25 km x 25 km cells. The home location of a user was the average location of his or her check-ins, within the cell into which he or she had the more check-ins. 
 
 You can see here the distribution of home location over the world :
-![Check-ins map](/images/hone_distributions.png)
+![Home Distribution](/images/hone_distributions.png)
 
 Once this was done, we were able to give a nationality to each user. 
 
