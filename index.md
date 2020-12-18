@@ -42,7 +42,6 @@ Specifically, for both social networks we only kept countries in which at least 
 
 The selected countries are represented on this map, except for Malta and Singapore that are not defined in Geopandas :
 
-*Add the picture*
 ![selected countries](/images/selectedcountries.png)
 
 # Results 
