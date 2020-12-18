@@ -90,7 +90,7 @@ Within the scope of this work, we studied the influence of three parameters :
 - the language 
 - the difference of GDP between countries
 
-<p align="justify">To analyze these facotrs, we performed a polymomial analysis, meaning that we tried to model the number of travels between two countries by polynomial functions of the three previous factors. The numerical results of the polynomial regression are available as an appendix.<\p> 
+<p align="justify">To analyze these facotrs, we performed a polymomial analysis, meaning that we tried to model the number of travels between two countries by polynomial functions of the three previous factors. The numerical results of the polynomial regression are available as an appendix.</p> 
 
 ## 3. But where are they going ?!
 
