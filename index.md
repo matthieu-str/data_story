@@ -75,8 +75,13 @@ Let's see if this is changing when considering continents instead of countries.
 
 ![Part of population continent EU vs NA](/images/part_of_pop_out_continent_eu_vs_us.png)
 
+<p align="justify">Interesting results ! Here you can see that for both datasets, there are roughly twice as many Europeans that leave Europe to travel than Americans leaving North America. Again, the gap between Gowalla and Brightkite user's can be explained by the difference of collecting periods.</p> 
+
+The following figure is about the average number of countries that were visited by travellers over the collecting period. 
+
 ![Countries per traveller EU vs US](/images/countries_per_traveller_eu_vs_us.png)
 
+Its seems that on average, Europeans people visit more countries than Americans. Moreover, the ratio between these number over the time period shows that people are on average visiting one foreign country per year, which makes sense.  
 
 ## 2. But where are they going ?!
 
