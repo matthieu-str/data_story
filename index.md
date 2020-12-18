@@ -39,9 +39,9 @@ Once this step was completed, we had already a clearer portray of each user, kno
 
 <p align="justify">As expected the distribution of check-ins and home locations was not homogeneous on arth. In particular, these two social networks are more popular in the US and some European countries than in Asia or Africa. To draw meaningful conclusions from the results we had to restrict our analysis to a smaller and more represented set of users. For this reason,we only selected regions of the world where enough data were available.  
 Specifically, for both social networks we only kept countries in which at least 1 person over 100 000 was a users.</p> 
-The selected countries are represented on this map, except for Malta and Singapore that are not defined in Geopandas :
+The selected countries are represented on this map :
 
-![selected countries](/images/selectedcountries.png)
+*Add the picture*
 
 # Results 
 
@@ -92,17 +92,30 @@ Within the scope of this work, we studied the influence of three parameters :
 
 <p align="justify">To analyze these facotrs, we performed a polymomial analysis, meaning that we tried to model the number of travels between two countries by polynomial functions of the three previous factors. The numerical results of the polynomial regression are available as an appendix.</p>
 
-Let's see the curves of influence given by the polynomial regression : 
+Let's see the curves of influence given by the polynomial regression. Please note that one the following graphs, the factors are standardised, meaning that 0 is equivalent to the mean value and 1 to sum of the mean value and the standard deviation. We were careful to make the graph start at the actuel zero in common units (km, $). 
+
+The first figures represent the influence of the distance on travelers. 
 
 ![Distance Gowalla](/images/distance_gowalla.png)
 
 ![Distance Brightkite](/images/distance_brightkite.png)
 
+<p align="justify">These curves have similar shapes. First, one can observe that the number of travelers decreases with the distance. But reaching a certain distance, the number of travelers stops decreasing. We can interpret this by saying that when people are traveling in a relatively close zone around them, a majority of them stays close to their home locations. But, once the trip is very far away, the distance does not matter so much as it is already very large.</p>  
+
 ![GDP Gowalla](/images/gdp_gowalla.png)
 
 ![GDP Brightkite](/images/gdp_brightkite.png)
 
+
 ## 3. But where are they going ?!
+
+![Departures US Gowalla](/images/gowalla_departures_from_us.jpg)
+
+![Departures Sweden Gowalla](/images/gowalla_departures_from_sweden.jpg)
+
+![Departures US Brightkite](/images/brightkite_departures_from_us.jpg)
+
+![Departures Sweden Brightkite](/images/brightkite_departures_from_sweden.jpg)
 
 ![NotEurope](/images/NotEurope.png)
 
