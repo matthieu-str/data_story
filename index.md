@@ -1,8 +1,8 @@
 <p align="justify">The exponential increase of global interactions among people, caused by globalisation, lead to a dramatic change in our daily life, transforming our social, political and economic structure. 
 Our travelling habits are no exception in the radical changes we underwent in past few decades, the rapidity and facility with which we can reach nearly every part of the world has encouraged people to travel more, further and differently than in the past. 
-Being able to identify the predominant human fluxes and new travelling habits of citizens could be highly beneficial in a plethora of sectors and domains. For instance, never as today we can understand the importance of modelling the spreading of a virus across the world, only achievable with a solid knowledge of the peoples’ movements within and among countries. With these pieces of information governments could put in place ad hoc containment measures potentially more effective, as based on the true behaviour of human beings. In a business context, deeper knowledge of human mobility could be insightful to investigate the most and least popular travelling routes, in order to efficiently allocate resources and establish prices for example. For social studies, the study of the incoming and outgoing fluxes could reveal precious information on a population’s culture and habits.</p>
-<p align="justify">There are clearly multiple approaches to investigate human mobility across the world, the one we are going to follow is based on the data gathered by two social networks, namely Gowalla and Brightkite, for which we have available a set of users and respective check-ins locations. 
-By relating the latitude and longitude coordinates of check-ins to the respective countries where the localization took place we can investigate the users’ movement, potentially in the home country and abroad.</p> 
+Being able to identify the predominant human fluxes and new travelling habits of citizens could be highly beneficial in a plethora of sectors and domains. For instance, never as today we can understand the importance of modelling the spreading of a virus across the world, only achievable with a solid knowledge of the peoples’ movements within and among countries. With these pieces of information governments could put in place ad hoc containment measures potentially more effective, as based on the true behaviour of human beings. In a business context, deeper knowledge of human mobility could be insightful to investigate the most and least popular travelling routes, in order to efficiently allocate resources and establish prices for example. For social studies, the study of the incoming and outgoing fluxes could reveal precious information on a population’s culture and habits. </p>
+There are clearly multiple approaches to investigate human mobility across the world, the one we are going to follow is based on the data gathered by two social networks, namely Gowalla and Brightkite, for which we have available a set of users and respective check-ins locations. 
+By relating the latitude and longitude coordinates of check-ins to the respective countries where the localization took place we can investigate the users’ movement, potentially in the home country and abroad. 
 
 # The main questions we asked ourselves
 
@@ -22,18 +22,18 @@ Social network | Number of check-ins | Number of users | Number of countries and
 Brightkite | 4 491 035 | 50 686 | 242 | 58 228 | 214 078 | April 2008 - October 2010
 Gowalla | 6 442 728 | 107 069 | 196 | 196 591 | 950 327 | February 2009 - October 2010
 
-# How do we shaped this data ? 
+# How did we shape the data ? 
 
 ## 1. Finding user's home
 
-At the beginng, the only thing we had was a huge amount of check-ins. Before everything else, we had to define a house for each user, in order to know its nationality and the distances that the users travel when they leave their home. 
+At the beginng, the only thing we had was a very large amount of check-ins. Before everything else, we had to define a house for each user, in order to know its nationality and the distances that the users travel once leaving home. 
 
-To achieve this, we divided the all world into 25 km x 25 km cells. The home location of a user was the average location of his or her check-ins, within the cell into which he or she had the more check-ins. 
+To achieve this, we discretized the world into 25 km x 25 km cells. The home location of a user was the average location of his/her check-ins within the cell in which we we had the highest amount of check-ins. Based on the assumption that most check-ins are done at home.
 
-You can see here the distribution of home location over the world :
+You can see here the distribution of users' home locations over the world :
 ![Home Distribution](/images/hone_distributions.png)
 
-Once this was done, we were able to give a nationality to each user. 
+Once this step was completed, we had already a clearer portray of each user, knowing the origin country for each of them.  
 
 ## 2. Geographical boundaries of our study 
 
