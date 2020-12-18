@@ -35,8 +35,9 @@ At the beginng, the only thing we had was a huge amount of check-ins. Before eve
 To achieve this, we divided the all world into 25 km x 25 km cells. The home location of a user was the average location of his or her check-ins, within the cell into which he or she had the more check-ins. 
 
 You can see here the distribution of home location over the world :
-
+{% capture includeGuts %}
 {% include mymap_b.html %}
+{% endcapture %}
 
 Once this was done, we were able to give a nationality to each user. 
 
