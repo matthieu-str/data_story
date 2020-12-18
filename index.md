@@ -33,6 +33,7 @@ You can see here the distribution of home location over the world :
 
 ![Homes-Brightkite](/images/mymap_b.html)
 *Add the picture*
+{% include mymap_b.html %}
 
 Once this was done, we were able to give a nationality to each user. 
 
