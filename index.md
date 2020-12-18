@@ -166,3 +166,4 @@ Chiara ONGARO, Cyril CHAMBE and Matthieu SOUTTRE
  Please note that the distance and GDP difference have been standardised, and that the same_language variable is a binary variable (equals 1 if the departure and arrival countries have the same language and 0 of not). 
 
 <br/><br/>
+Thanks a lot for reading our data story ! :-)
