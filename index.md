@@ -112,11 +112,10 @@ The first figures represent the influence of the distance on travelers.
 
 ![World](/images/World.png)
 ![World](/images/WorldG.png)
-By looking at  these graphs we can notice few important features, for instance a comparable amount of people travel from the US to Canada and viceversa, similarly people from the US tend to travel to neighbouring country Mexico. It would have been interesting to investigate the particular relation Mexico-US in light of the rather strict immagration politics imposed by the United States, but unfortunately nothing could be inferrend for the travels from Mexico as not enough users were present. 
-In Europe, it is evident that most of the travels happen among the biggest economical parters, namely UK, Germany, Italy and Spain. The following investigation highlighted a more remarkable flux of people among Italy and the UK, Germany and the US and finally the UK and the US. This last connection highlights a particularly interesting characteristic, in fact flight connection between the 
+By looking at  these graphs, respectively for Brightkite and Gowalla, we can notice few important and common features, for instance a comparable amount of people travel from the US to Canada and viceversa, similarly people from the US tend to travel to neighbouring country Mexico. It would have been interesting to investigate the particular relation Mexico-US in light of the rather strict immagration politics imposed by the United States, but unfortunately nothing could be inferrend for the travels from Mexico, as not enough users were present. 
+In Europe, it is evident that most of the travels happen among the biggest economical parters, namely UK, Germany, Italy and Spain (France is not included as not enought users were present). The following investigation highlighted a more remarkable flux of people among Italy and the UK, Germany and the US and finally the UK and the US. This last connection emphasizes a particularly interesting characteristic also in line with real observations, in fact the connection London-New York is known to be the busiest and most profitable of the world. 
 
 ![Europe](/images/Europe.png)
-
 
 ![Europe](/images/EuropeG.png)
 
