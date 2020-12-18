@@ -30,7 +30,7 @@ At the beginng, the only thing we had was a very large amount of check-ins. Befo
 
 To achieve this, we discretized the world into 25 km x 25 km cells. The home location of a user was the average location of his/her check-ins within the cell in which we we had the highest amount of check-ins. Based on the assumption that most check-ins are done at home.
 
-You can see here the distribution of users' home locations over the world :
+You can see here the distribution of users' home locations (normalised by the country population) over the world :
 ![Home Distribution](/images/Home.png)
 
 Once this step was completed, we had already a clearer portray of each user, knowing at least the origin country for each of them.  
