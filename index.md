@@ -39,9 +39,11 @@ Once this step was completed, we had already a clearer portray of each user, kno
 
 <p align="justify">As expected the distribution of check-ins and home locations was not homogeneous on arth. In particular, these two social networks are more popular in the US and some European countries than in Asia or Africa. To draw meaningful conclusions from the results we had to restrict our analysis to a smaller and more represented set of users. For this reason,we only selected regions of the world where enough data were available.  
 Specifically, for both social networks we only kept countries in which at least 1 person over 100 000 was a users.</p> 
-The selected countries are represented on this map :
+
+The selected countries are represented on this map, except for Malta and Singapore that are not defined in Geopandas :
 
 *Add the picture*
+![selected countries](/images/selectedcountries.png)
 
 # Results 
 
