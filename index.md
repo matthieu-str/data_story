@@ -31,6 +31,7 @@ To achieve this, we divided the all world into 25 km x 25 km cells. The home loc
 
 You can see here the distribution of home location over the world :
 
+![Homes-Brightkite](/images/mymap_b.html)
 *Add the picture*
 
 Once this was done, we were able to give a nationality to each user. 
