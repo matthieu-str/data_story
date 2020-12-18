@@ -111,8 +111,10 @@ The first figures represent the influence of the distance on travelers.
 ## 3. But where are they going ?!
 
 ![World](/images/World.png)
+By looking at the these graphs we can notice few important features, for instance a comparable amount of people travel from the US to Canada and viceversa, similarly people from the US tend to travel to neighbouring country Mexico. Unfortunately. It would have been interesting to investigate the particular relation Mexico-US in light of the rather strict immagration policy imposed by the United States, but unfortunately nothing could be inferrend for the travels from Mexico to the US as not enough users from Mexico were present.
 
 ![Europe](/images/Europe.png)
+
 
 
 # Conclusion
