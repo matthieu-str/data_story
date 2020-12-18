@@ -116,7 +116,7 @@ This is a lot given the fact that 5.82% of the selected countries have the same 
 
 ![World](/images/World.png)
 ![World](/images/WorldG.png)
-By looking at  these graphs, respectively for Brightkite and Gowalla, we can notice few important and common features, for instance a comparable amount of people travel from the US to Canada and viceversa, similarly people from the US tend to travel to neighbouring country Mexico. It would have been interesting to investigate the particular relation Mexico-US in light of the rather strict immigration policies imposed by the United States, but unfortunately nothing could be inferred for the travels from Mexico, as not enough users were present. 
+By looking at  these graphs, respectively for Brightkite and Gowalla, we can notice few important and common features, for instance a comparable amount of people travel from the US to Canada and viceversa, similarly people from the US tend to travel to the neighbouring country Mexico. It would have been interesting to investigate the particular relation Mexico-US in light of the rather strict immigration policies imposed by the United States, but unfortunately nothing could be inferred for the travels from Mexico, as not enough users were present. 
 In Europe, it is evident that most of the travels happen among the biggest economical partners, namely UK, Germany, Italy and Spain (France is not included as not enough users were present). The following investigation highlighted a more remarkable flux of people among Italy and the UK, Germany and the US and finally the UK and the US. This last connection emphasizes a particularly interesting characteristic also in line with real observations, in fact the connection London-New York is known to be the busiest and most profitable of the world. 
 
 ![Europe](/images/Europe.png)
@@ -124,6 +124,9 @@ In Europe, it is evident that most of the travels happen among the biggest econo
 ![Europe](/images/EuropeG.png)
 
 Similar conclusions can be reached by analysing the results for 1.5M users for Brightkite and 1M users for Gowalla, which present similar behaviours. Firsly, it has to be pointed out that the reason why the arrows for Gowalla are thinner than for Brighkite is that we have a 10 months difference in the data acquisition period, thus less check-ins were collected for each user in the Gowalla datset. Another feature, not detectable from the maps above, is that Germany plays a predominant role in Europe, in fact many Germans travel abroad, but not many people enter the country. Not many arrows leave from Spain, perhaps suggesting that Spanish people prefer travelling within the country instead than abroad. 
+
+# Conclusions 
+As a result of this analysis we were able to identify some of the major human fluxes across the world based on the data gathered in the Gowalla and Brightkite datasets. Most interestingly we could detect common behaviours between the two independent datasets suggesting that the observations are consistent and we are not only detecting random travels among countries. It has to be pointed out that our results are strictly dependent on the number of users for each country, thus we cannot draw any conclusion on not represented states in the social network. 
 
 # The team
 
