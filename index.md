@@ -8,7 +8,7 @@ By relating the latitude and longitude coordinates of check-ins to the respectiv
 
 1. What are the main fluxes of people over the world ?
 2. Have some countries different travelling habits than others ?
-3. What is the influence of factors like the language, the distance or the GDP on travelling habits ? 
+3. What is the influence of factors like the language, the distance or the GDP on travelling habits? 
 
 # Where did we start? 
 
@@ -85,9 +85,12 @@ Its seems that on average, Europeans people visit more countries than Americans.
 
 ## 2. What is influencing travellers ? 
 
-![Regression Brightkite](/images/polynomial_reg_brightkite.png)
+Within the scope of this work, we studied the influence of three parameters :
+- the distance between countries
+- the language 
+- the difference of GDP between countries
 
-![Regression Gowalla](/images/polynomial_reg_gowalla.png)
+<p align="justify">To analyze these facotrs, we performed a polymomial analysis, meaning that we tried to model the number of travels between two countries by polynomial functions of the three previous factors. The numerical results of the polynomial regression are available as an appendix.<\p> 
 
 ## 3. But where are they going ?!
 
@@ -130,7 +133,20 @@ Chiara ONGARO, Cyril CHAMBE and Matthieu SOUTTRE
 
 [Continent - Country](https://www.kaggle.com/sarques/conticountry)
 
-## Methods 
+## Methods
+
+### Polynomial regression
+
+Here are the numerical results of the polynomial regressions :
+- for the Brightkite dataset 
+<br/><br/>
+![Regression Brightkite](/images/polynomial_reg_brightkite.png)
+
+- for the Gowalla dataset
+<br/><br/>
+![Regression Gowalla](/images/polynomial_reg_gowalla.png)
+
+Please note that the distance and GDP difference have been standardised, and that the same_language variable is a binary variable (equals 1 if the departure and arrival countries have the same language and 0 of not). 
 
 <br/><br/>
 
