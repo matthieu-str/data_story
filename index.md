@@ -38,6 +38,7 @@ You can see here the distribution of home location over the world :
 {% capture includeGuts %}
 {% include mymap_b.html %}
 {% endcapture %}
+{{ includeGuts | replace: '    ', ''}}
 
 Once this was done, we were able to give a nationality to each user. 
 
