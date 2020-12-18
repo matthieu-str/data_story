@@ -83,7 +83,13 @@ The following figure is about the average number of countries that were visited 
 
 Its seems that on average, Europeans people visit more countries than Americans. Moreover, the ratio between these number over the time period shows that people are on average visiting one foreign country per year, which makes sense.  
 
-## 2. But where are they going ?!
+## 2. What is influencing travellers ? 
+
+![Regression Brightkite](/images/polynomial_reg_brightkite.png)
+
+![Regression Gowalla](/images/polynomial_reg_gowalla.png)
+
+## 3. But where are they going ?!
 
 ![Departures US Gowalla](/images/gowalla_departures_from_us.jpg)
 
@@ -93,11 +99,6 @@ Its seems that on average, Europeans people visit more countries than Americans.
 
 ![Departures Sweden Brightkite](/images/brightkite_departures_from_sweden.jpg)
 
-## 3. What is influencing travellers ? 
-
-![Regression Brightkite](/images/polynomial_reg_brightkite.png)
-
-![Regression Gowalla](/images/polynomial_reg_gowalla.png)
 
 # Conclusion
 
