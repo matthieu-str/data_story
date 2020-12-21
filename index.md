@@ -82,7 +82,7 @@ The following figure is about the average number of countries that were visited 
 
 ![Countries per traveller EU vs US](/images/countries_per_traveller_eu_vs_us.png)
 
-Its seems that on average, Europeans people visit more countries than Americans. Moreover, the ratio between these number over the time period shows that people are on average visiting one foreign country per year, which makes sense.  
+Its seems that on average, European people visit more countries than Americans. Moreover, the ratio between these numbers over the time period shows that people are on average visiting one foreign country per year, which makes sense.  
 
 ## 2. What is influencing travellers ? 
 
@@ -93,7 +93,7 @@ Within the scope of this work, we studied the influence of three parameters :
 
 <p align="justify">To analyze these factors, we performed a polymomial analysis, meaning that we tried to model the number of travels between two countries by polynomial functions of the three previous factors. The numerical results of the polynomial regression are available as an appendix.</p>
 
-Let's see the curves of influence given by the polynomial regression. Please note that on the following graphs, the factors are standardized, meaning that 0 is equivalent to the mean value and 1 to the sum of the mean value and the standard deviation. We were careful to make the graph start at the actual zero in common units (km, $). 
+<p align="justify">Let's see the curves of influence given by the polynomial regression. Please note that on the following graphs, the factors are standardized, meaning that 0 is equivalent to the mean value and 1 to the sum of the mean value and the standard deviation. We were careful to make the graph start at the actual zero in common units (km, $).</p> 
 
 The first figures represent the influence of the distance on travelers. 
 
